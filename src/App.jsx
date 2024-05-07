@@ -1,9 +1,12 @@
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-1200 underline bg-black text-white">
-    Hello world!
-  </h1>
+   <div className="bg-primary p-10 w-full overflow-hidden" > 
+   <div className="sm:px-16 px-6  py-5 color-lightWhite">
+    <p className="text-white">Navbar</p>
+    </div>
+    
+    </div>
   )
 }
 
