@@ -1,4 +1,4 @@
-export const navigationLinks = [
+export const  navigationLinks = [
     {
         Id:"home" ,
         title:"Bosh sahifa" ,
