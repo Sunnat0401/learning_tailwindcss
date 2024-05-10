@@ -1,6 +1,6 @@
 export const  navigationLinks = [
     {
-        Id:"home" ,
+        id:"home" ,
         title:"Bosh sahifa" ,
     },
     {
