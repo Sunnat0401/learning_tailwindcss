@@ -1,2 +1,5 @@
 export {default as Navbar} from './navbar/Navbar'
 export {default as  Home} from './Home/Home'
+export {default as Statistics} from './statistics'
+export { default as Contract} from './Contract'
+export {default as Building} from './Building'

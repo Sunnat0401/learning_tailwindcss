@@ -15,9 +15,9 @@ const Navbar = () => {
         <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
 {
     navigationLinks.map((nav, idx) =>(
-        <li key={nav.id} onClick={() =>activeHandler(nav.id)} className={`   font-montserrat font-normal cursor-pointer text-[16px]
+        <li key={nav?.id} onClick={() =>activeHandler(nav.id)} className={`   font-montserrat font-normal cursor-pointer text-[16px]
          ${idx == navigationLinks.length - 1 ? "mr-0" : "mr-10"} 
-         ${active === nav.id ? "text-white" : "text-lightWhite"}
+         ${active === nav?.id ? "text-white" : "text-lightWhite"}
          hover:text-white transition-all duration-500`}>
             {nav?.title}
             </li>
