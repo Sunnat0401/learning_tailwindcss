@@ -1,4 +1,5 @@
-import { Contract, Home, Navbar, Statistics } from "./Components"
+import { Building, Contract, Home, Navbar, Statistics } from "./Components"
+import Busssiness from "./Components/Busssiness"
 import { styles } from "./util/style"
 const App = () => {
   return (
@@ -20,6 +21,11 @@ const App = () => {
     <div className={`${styles.container} `}>
      <Statistics/>
      <Contract/>
+     <Building/>
+     {/* Bussiness  */}
+     <Busssiness/>
+     {/* CTA */}
+     {/* FOOTER  */}
     </div>
     </div>
     </div>
