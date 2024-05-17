@@ -2,7 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+:root {
+  --black-gradient: linear-gradient(144.39deg, #fff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
 .sidebar {
   animation: slide-sidebar 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -55,4 +58,18 @@
           #7de7eb 29.82%,
           #5ce1e6 51.94%,
           #33bbcf 90.29%);
+}
+.future-card:hover{
+  transition: all .3s ease; 
+}
+.future-card:hover,
+.feedback-card:hover {
+    background: var(--black-gradient);
+    box-shadow: var(--card-shadow);
+}
+.box-shadow{
+  box-shadow: 0px 20px 100px -10px rgba(66,71,91,.1);
+}
+.bg-dark-gradient{
+  background: var(--black-gradient);
 }

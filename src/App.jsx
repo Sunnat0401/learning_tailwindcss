@@ -1,5 +1,7 @@
-import { Building, Contract, Home, Navbar, Statistics } from "./Components"
+import { Building, Contract, CTA, Home, Navbar, Statistics } from "./Components"
 import Busssiness from "./Components/Busssiness"
+import FutureCard from "./Components/FutureCard"
+import Testimonials from "./Components/Testimonials"
 import { styles } from "./util/style"
 const App = () => {
   return (
@@ -24,7 +26,9 @@ const App = () => {
      <Building/>
      {/* Bussiness  */}
      <Busssiness/>
+     <Testimonials/>
      {/* CTA */}
+     <CTA/>
      {/* FOOTER  */}
     </div>
     </div>

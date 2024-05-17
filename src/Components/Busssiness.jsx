@@ -20,7 +20,7 @@ const Busssiness = () => {
         <div className={`${layout.sectionImage} flex-col`}>
             {
                 futures.map((feature, idx) =>(
-                <FutureCard  key={fe?.id} {...feature} idx={idx}/>
+                <FutureCard  key={feature?.id} {...feature} idx={idx}/>
                 ))
             }
         </div>
