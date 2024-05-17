@@ -59,7 +59,8 @@
           #5ce1e6 51.94%,
           #33bbcf 90.29%);
 }
-.future-card:hover{
+.future-card:hover,
+.feedback-card{
   transition: all .3s ease; 
 }
 .future-card:hover,

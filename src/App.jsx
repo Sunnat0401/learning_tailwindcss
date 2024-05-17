@@ -1,4 +1,4 @@
-import { Building, Contract, CTA, Home, Navbar, Statistics } from "./Components"
+import { Building, Client, Contract, CTA, Footer, Home, Navbar, Statistics } from "./Components"
 import Busssiness from "./Components/Busssiness"
 import FutureCard from "./Components/FutureCard"
 import Testimonials from "./Components/Testimonials"
@@ -27,9 +27,13 @@ const App = () => {
      {/* Bussiness  */}
      <Busssiness/>
      <Testimonials/>
+{/* client */}
+<Client/>
      {/* CTA */}
      <CTA/>
+
      {/* FOOTER  */}
+     <Footer/>
     </div>
     </div>
     </div>

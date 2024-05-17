@@ -1,4 +1,4 @@
-import { send, shield, star } from "../assets";
+import { airbnb, binance, coinbase, dropbox, facebook, instagram, linkedin, send, shield, star } from "../assets";
 
 export const  navigationLinks = [
     {
@@ -79,3 +79,85 @@ export const feedbacks = [
       title: "Founder & Ledaer",
     },
   ];
+  export const clients = [
+    {
+      id: 1,
+      title: "AIRBNB",
+      logo: airbnb
+    },
+    {
+      id: 2,
+      title: "BINANCE",
+      logo:binance
+    },
+    {
+      id: 3,
+      title: "COINBASE",
+      logo: coinbase
+    },
+    {
+      id: 4,
+      title: "DROPBOX",
+      logo: dropbox
+    },
+  ];
+  export const footerLinks = [
+    {
+      title: "Jamiyat",
+      links: [
+        { name: "Yordam markazi", link: "https://www.hoobank.com/help-center/" },
+        { name: "Hamkorlar", link: "https://www.hoobank.com/partners/" },
+        { name: "Takliflar", link: "https://www.hoobank.com/suggestions/" },
+        { name: "Blog", link: "https://www.hoobank.com/blog/" },
+        { name: "Yangiliklar", link: "https://www.hoobank.com/newsletters/" },
+      ],
+    },
+  
+    {
+      title: "Foydali Havolalar",
+      links: [
+        { name: "Content", link: "https://www.sammi.ac/content/" },
+        { name: "Qanday ishlaydi", link: "https://www.sammi.ac/how-it-works/" },
+        {
+          name: "Shartlar & xizmatlar",
+          link: "https://www.sammi.ac/terms-and-services/",
+        },
+      ],
+    },
+  
+    {
+      title: "Hamkor",
+      links: [
+        {
+          name: "Bizning hamkorimiz",
+          link: "https://www.sammi.ac/our-partner/",
+        },
+        {
+          name: "Hamkor bo'ling",
+          link: "https://www.sammi.ac/become-a-partner/",
+        },
+      ],
+    },
+  ];
+  export const socialMedia = [
+    {
+      id: "social-media-1",
+      icon: instagram,
+      link: "https://www.instagram.com/",
+    },
+    {
+      id: "social-media-2",
+      icon: facebook,
+      link: "https://www.facebook.com/",
+    },
+    {
+      id: "social-media-3",
+      icon: twitter,
+      link: "https://www.twitter.com/",
+    },
+    {
+      id: "social-media-4",
+      icon: linkedin, 
+      link: "https://www.linkedin.com/",
+    },
+  ]
